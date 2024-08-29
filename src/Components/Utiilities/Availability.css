@@ -1,0 +1,204 @@
+.maineasy{
+  font-size: 3.5vw;
+  display: flex;
+  align-items: left;
+  font-weight: 800;
+  color: #3445e8;
+  padding: 4vw;
+  padding-bottom: 0;
+  background-color: #f0f0f0;
+}
+.easy {
+  padding: 4vw;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+gap: 1vw;
+background-image: url(https://stg-7pi2uf.elementor.cloud/wp-content/uploads/2024/06/dashedLinesNeutral.png);
+background-color: #f0f0f0;
+background-position: bottom center;
+background-repeat: no-repeat;
+}
+.Cont2{
+  max-width: 60%;
+}
+
+.custom p
+{
+text-align: left;
+font-size: 1.3vw;
+line-height: 1.6rem;
+}
+
+.Avilcard1 {
+  height: 30vw;
+width: 50%;
+text-align: center;
+background-color: #fff;
+padding: 2vw;
+border-radius: 1vw;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+/* margin-left: 40px; */
+/* margin-top: 40px; */
+/* margin-right: 30px;
+margin-bottom: 20px; */
+text-align: left;
+font-weight: 500;
+}
+.sticker
+{
+padding: .5em;
+background-color: #e2e5e8;
+border-radius: 60%;
+padding: 30px;
+height:100px;
+width:100px;
+}
+.availcard2 {
+display: flex;
+flex-direction: column;
+gap: 1.2vw;
+justify-content: space-between;
+/* margin-top: 40px;
+margin-right: 60px;
+margin-bottom: 40px; */
+}
+.icon1 ,.icon2, .icon3 ,.icon4
+{
+padding: .5em;
+background-color: #e2e5e8;
+border-radius: 60%;
+padding: 30px;
+height:100px;
+width:100px;
+}
+.cd1, .cd2 {
+display: flex;
+justify-content: space-between;
+gap: 1vw;
+}
+.c1, .c2, .c3, .c4 {
+flex: 1;
+display: flex;
+justify-content: space-between;
+background-color: #ffffff;
+padding: 1vw;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+border-radius: 1vw;
+align-items: center;
+font-weight: 500;
+}
+.txt1 ,.txt2, .txt3 ,.txt4
+{
+text-align: left;
+margin-left: 30px;
+}
+
+h2.custom, h2.Swift {
+margin-bottom: 10px;
+color: #3445e8;
+font-size: 1.7vw;
+}
+.easypera {
+color: #666;
+line-height: 1.6;
+font-size: 1.25vw;
+}
+
+.sec {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .easy{
+        display: flex;
+        flex-wrap: wrap;
+  }
+  .Avilcard1{
+    width: 100%;
+    height: 100%;
+  }
+  .cd1, .cd2{ 
+    display: grid;
+    gap: 1vw;
+}
+.easypera{
+  font-size: 13.5px;
+  text-align: center;
+}
+.AvilcardStyle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sticker{
+    background-color: #e2e5e8;
+    border-radius: 60%;
+    padding: 6px 14px;
+    height: 52px;
+    width: 54px;
+}
+.maineasy{
+  font-size: 8vw;
+  text-align: left;
+}
+.stickerStyles{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.txt1, .txt2, .txt3, .txt4{
+  margin-left: 0px;
+  text-align: center;
+}
+.c1, .c2, .c3, .c4{
+  display: flex;
+  flex-direction: column;
+}
+.icon1, .icon2, .icon3, .icon4{
+  background-color: #e2e5e8;
+  border-radius: 60%;
+  padding: 6px 14px;
+  height: 52px;
+  width: 54px;
+  margin-top: 10px;
+}
+.stickerLogo{
+  width: 25px ;
+}
+
+h2.custom, h2.Swift{
+  font-size: 6vw;
+  text-align: center;
+}
+.sec {
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Cont2{
+  max-width: 100%;
+}
+/*
+.c1, .c2, .c3, .c4 {
+    width: 100%;
+    margin-bottom: 20px;
+} */
+}
+@media (max-width: 480px) {
+.sec {
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* .c1, .c2, .c3, .c4 {
+    width: 100%;
+    margin-bottom: 10px;
+} */
+}
